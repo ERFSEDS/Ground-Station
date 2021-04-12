@@ -1,0 +1,25 @@
+[0.357s] Invoking command in '/home/paul/sensor_values/src/sensor_values': PYTHONPATH=/home/paul/sensor_values/install/sensor_values/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_values build --build-base /home/paul/sensor_values/build/sensor_values/build install --prefix /home/paul/sensor_values/install/sensor_values --record /home/paul/sensor_values/build/sensor_values/install.log --single-version-externally-managed
+[0.693s] running egg_info
+[0.695s] writing ../../build/sensor_values/sensor_values.egg-info/PKG-INFO
+[0.695s] writing dependency_links to ../../build/sensor_values/sensor_values.egg-info/dependency_links.txt
+[0.696s] writing entry points to ../../build/sensor_values/sensor_values.egg-info/entry_points.txt
+[0.696s] writing requirements to ../../build/sensor_values/sensor_values.egg-info/requires.txt
+[0.696s] writing top-level names to ../../build/sensor_values/sensor_values.egg-info/top_level.txt
+[0.750s] reading manifest file '../../build/sensor_values/sensor_values.egg-info/SOURCES.txt'
+[0.751s] writing manifest file '../../build/sensor_values/sensor_values.egg-info/SOURCES.txt'
+[0.751s] running build
+[0.751s] running build_py
+[0.752s] copying sensor_values/values_output.py -> /home/paul/sensor_values/build/sensor_values/build/lib/sensor_values
+[0.752s] running install
+[0.753s] running install_lib
+[0.755s] copying /home/paul/sensor_values/build/sensor_values/build/lib/sensor_values/values_output.py -> /home/paul/sensor_values/install/sensor_values/lib/python3.8/site-packages/sensor_values
+[0.756s] byte-compiling /home/paul/sensor_values/install/sensor_values/lib/python3.8/site-packages/sensor_values/values_output.py to values_output.cpython-38.pyc
+[0.758s] running install_data
+[0.759s] running install_egg_info
+[0.761s] removing '/home/paul/sensor_values/install/sensor_values/lib/python3.8/site-packages/sensor_values-0.0.0-py3.8.egg-info' (and everything under it)
+[0.762s] Copying ../../build/sensor_values/sensor_values.egg-info to /home/paul/sensor_values/install/sensor_values/lib/python3.8/site-packages/sensor_values-0.0.0-py3.8.egg-info
+[0.764s] running install_scripts
+[0.791s] Installing input_values script to /home/paul/sensor_values/install/sensor_values/lib/sensor_values
+[0.792s] Installing test_system script to /home/paul/sensor_values/install/sensor_values/lib/sensor_values
+[0.792s] writing list of installed files to '/home/paul/sensor_values/build/sensor_values/install.log'
+[0.834s] Invoked command in '/home/paul/sensor_values/src/sensor_values' returned '0': PYTHONPATH=/home/paul/sensor_values/install/sensor_values/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_values build --build-base /home/paul/sensor_values/build/sensor_values/build install --prefix /home/paul/sensor_values/install/sensor_values --record /home/paul/sensor_values/build/sensor_values/install.log --single-version-externally-managed

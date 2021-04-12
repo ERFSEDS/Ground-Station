@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/sensor_values/sensor_values.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_values/sensor_values.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_values/sensor_values.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_values/sensor_values.egg-info/requires.txt
+writing top-level names to ../../build/sensor_values/sensor_values.egg-info/top_level.txt
+reading manifest file '../../build/sensor_values/sensor_values.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_values/sensor_values.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sensor_values/values_input.py -> /home/paul/sensor_values/build/sensor_values/build/lib/sensor_values
+running install
+running install_lib
+copying /home/paul/sensor_values/build/sensor_values/build/lib/sensor_values/values_input.py -> /home/paul/sensor_values/install/sensor_values/lib/python3.8/site-packages/sensor_values
+byte-compiling /home/paul/sensor_values/install/sensor_values/lib/python3.8/site-packages/sensor_values/values_input.py to values_input.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/paul/sensor_values/install/sensor_values/lib/python3.8/site-packages/sensor_values-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/sensor_values/sensor_values.egg-info to /home/paul/sensor_values/install/sensor_values/lib/python3.8/site-packages/sensor_values-0.0.0-py3.8.egg-info
+running install_scripts
+Installing input_values script to /home/paul/sensor_values/install/sensor_values/lib/sensor_values
+writing list of installed files to '/home/paul/sensor_values/build/sensor_values/install.log'

@@ -1,0 +1,5 @@
+  File "/home/paul/sensor_values/install/sensor_values/lib/python3.8/site-packages/sensor_values/values_output.py", line 40
+    rclpy.spin(test_node\)
+                         ^
+SyntaxError: unexpected character after line continuation character
+

@@ -1,0 +1,4 @@
+[console_scripts]
+process_values = sensor_values.values_input:main
+test_process = sensor_values.values_output:main
+

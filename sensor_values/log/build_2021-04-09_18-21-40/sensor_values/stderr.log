@@ -1,0 +1,5 @@
+  File "/home/paul/sensor_values/install/sensor_values/lib/python3.8/site-packages/sensor_values/values_input.py", line 19
+    100)
+    ^
+SyntaxError: positional argument follows keyword argument
+
