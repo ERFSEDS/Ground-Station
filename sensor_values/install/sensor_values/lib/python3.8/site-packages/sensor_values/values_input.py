@@ -2,7 +2,6 @@
 
 import rclpy
 from rclpy.node import Node
-
 from std_msgs.msg import Float64MultiArray
 from std_msgs.msg import Float64
 from std_msgs.msg import Int64
@@ -36,6 +35,7 @@ class ValuesInput(Node):
     def values_output_callback(self, msg):
         output_data = msg.data
         # Maybe there is a way to make this more compact, but I don't know it
+        # Initializes each variable with the correct data type
         timeelapsed = Float64()
         msgnum = Int64()
         accelx = Float64()
@@ -47,8 +47,8 @@ class ValuesInput(Node):
         pressure = Float64()
         truealt = Float64()
         trueangle = Float64()
+        # Setting each variable's data
         timeelapsed.data = float(output_data[0])
-        # self.get_logger().info('I heard3: "%s"' % timeelapsed)
         msgnum.data = int(output_data[1])
         accelx.data = float(output_data[2])
         accely.data = float(output_data[3])
@@ -59,6 +59,7 @@ class ValuesInput(Node):
         pressure.data = float(output_data[8])
         truealt.data = float(output_data[9])
         trueangle.data = float(output_data[10])
+        # Publishing each variable to their respective topic
         self.publisher_time_.publish(timeelapsed)
         self.publisher_messagenum_.publish(msgnum)
         self.publisher_accelx_.publish(accelx)

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f84e794-bd6e-419e-a19f-0767852c30e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../sensor_values/build/sensor_values/colcon_command_prefix_setup_py.sh.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../sensor_values/build/sensor_values/colcon_command_prefix_setup_py.sh.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sensor_values/build/sensor_values/install.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../sensor_values/build/sensor_values/install.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sensor_values/install/local_setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../sensor_values/install/local_setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sensor_values/install/sensor_values/share/colcon-core/packages/sensor_values" beforeDir="false" afterPath="$PROJECT_DIR$/../../sensor_values/install/sensor_values/share/colcon-core/packages/sensor_values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sensor_values/install/sensor_values/share/sensor_values/package.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../sensor_values/install/sensor_values/share/sensor_values/package.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sensor_values/install/sensor_values/share/sensor_values/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sensor_values/install/sensor_values/share/sensor_values/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sensor_values/install/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../sensor_values/install/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sensor_values/log/latest_build" beforeDir="false" afterPath="$PROJECT_DIR$/../../sensor_values/log/latest_build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sensor_values/src/sensor_values/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sensor_values/src/sensor_values/package.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1r52zl5TMiTWV4ERIvvMt2N7fMd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flight_visualizer/flight_visualizer" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f84e794-bd6e-419e-a19f-0767852c30e3" name="Default Changelist" comment="" />
+      <created>1618251895437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618251895437</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

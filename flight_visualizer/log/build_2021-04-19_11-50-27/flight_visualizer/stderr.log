@@ -1,0 +1,5 @@
+  File "/home/paul/Ground-Station/flight_visualizer/install/flight_visualizer/lib/python3.8/site-packages/flight_visualizer/graph_data.py", line 64
+    ani = animation.FuncAnimation(plt.gcf(), animate, interval=1000, x_vals, y_vals)
+                                                                     ^
+SyntaxError: positional argument follows keyword argument
+
