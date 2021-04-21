@@ -24,13 +24,13 @@ class TestNode(Node):
 
     def timer_callback(self):
         msg = Float64MultiArray()
-        # goes line by line and publishes it
-        cur_line = next(islice(self.data_array, self.i, (self.i + 1)))
+        # Goes line by line, publishes the data and deletes the line
+        cur_line = self.data_array.pop(1)
         for i in list(range(0, 11)):
             cur_line[i] = float(cur_line[i])
         msg.data = list(cur_line)
         self.publisher_.publish(msg)
-        # self.get_logger().info('Publishing message number: %d' % self.i)
+        self.get_logger().info('Publishing message number: %d' % self.i)
         self.i += 1
 
 
