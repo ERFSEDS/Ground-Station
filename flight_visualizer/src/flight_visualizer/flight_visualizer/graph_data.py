@@ -36,15 +36,11 @@ class CreateGraphs(Node):
 
     def values_time_callback(self, msg):
         self.time.append(msg.data)
-        self.get_logger().info('Timer heard: "%s"' % msg)
 
     def values_alt_callback(self, msg):
         self.alt.append(msg.data)
         self.index.append(self.i)
         self.i += 1
-        self.get_logger().info('Alt heard: "%s"' % msg)
-        # This needs to be global because the variable has to persists
-        global ani
         ani = animation.FuncAnimation(plt.gcf(), self.animate, interval=1000)
         # Sometimes the time and altitude don't get reported concurrently. This just helps make sure that the size of
         # each list is the same so they can be plotted. Made branchless for speed, but the branched code is left for
@@ -69,7 +65,6 @@ class CreateGraphs(Node):
         ani
         plt.pause(1)  # Value here is in seconds. A higher value will result in a higher resolution graph, but will be
         # slower to plot
-        # TODO This entire thing is slow and needs to be optimized
 
     def animate(self, i):
         plt.cla()
