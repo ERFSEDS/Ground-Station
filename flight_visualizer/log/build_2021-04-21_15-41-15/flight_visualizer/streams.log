@@ -1,0 +1,24 @@
+[0.275s] Invoking command in '/home/paul/Ground-Station/flight_visualizer/src/flight_visualizer': PYTHONPATH=/home/paul/Ground-Station/flight_visualizer/install/flight_visualizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/flight_visualizer build --build-base /home/paul/Ground-Station/flight_visualizer/build/flight_visualizer/build install --prefix /home/paul/Ground-Station/flight_visualizer/install/flight_visualizer --record /home/paul/Ground-Station/flight_visualizer/build/flight_visualizer/install.log --single-version-externally-managed
+[0.513s] running egg_info
+[0.514s] writing ../../build/flight_visualizer/flight_visualizer.egg-info/PKG-INFO
+[0.514s] writing dependency_links to ../../build/flight_visualizer/flight_visualizer.egg-info/dependency_links.txt
+[0.515s] writing entry points to ../../build/flight_visualizer/flight_visualizer.egg-info/entry_points.txt
+[0.515s] writing requirements to ../../build/flight_visualizer/flight_visualizer.egg-info/requires.txt
+[0.515s] writing top-level names to ../../build/flight_visualizer/flight_visualizer.egg-info/top_level.txt
+[0.551s] reading manifest file '../../build/flight_visualizer/flight_visualizer.egg-info/SOURCES.txt'
+[0.552s] writing manifest file '../../build/flight_visualizer/flight_visualizer.egg-info/SOURCES.txt'
+[0.552s] running build
+[0.552s] running build_py
+[0.553s] copying flight_visualizer/graph_data.py -> /home/paul/Ground-Station/flight_visualizer/build/flight_visualizer/build/lib/flight_visualizer
+[0.553s] running install
+[0.554s] running install_lib
+[0.555s] copying /home/paul/Ground-Station/flight_visualizer/build/flight_visualizer/build/lib/flight_visualizer/graph_data.py -> /home/paul/Ground-Station/flight_visualizer/install/flight_visualizer/lib/python3.8/site-packages/flight_visualizer
+[0.555s] byte-compiling /home/paul/Ground-Station/flight_visualizer/install/flight_visualizer/lib/python3.8/site-packages/flight_visualizer/graph_data.py to graph_data.cpython-38.pyc
+[0.557s] running install_data
+[0.558s] running install_egg_info
+[0.559s] removing '/home/paul/Ground-Station/flight_visualizer/install/flight_visualizer/lib/python3.8/site-packages/flight_visualizer-0.0.0-py3.8.egg-info' (and everything under it)
+[0.560s] Copying ../../build/flight_visualizer/flight_visualizer.egg-info to /home/paul/Ground-Station/flight_visualizer/install/flight_visualizer/lib/python3.8/site-packages/flight_visualizer-0.0.0-py3.8.egg-info
+[0.561s] running install_scripts
+[0.579s] Installing graph_data script to /home/paul/Ground-Station/flight_visualizer/install/flight_visualizer/lib/flight_visualizer
+[0.580s] writing list of installed files to '/home/paul/Ground-Station/flight_visualizer/build/flight_visualizer/install.log'
+[0.610s] Invoked command in '/home/paul/Ground-Station/flight_visualizer/src/flight_visualizer' returned '0': PYTHONPATH=/home/paul/Ground-Station/flight_visualizer/install/flight_visualizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/flight_visualizer build --build-base /home/paul/Ground-Station/flight_visualizer/build/flight_visualizer/build install --prefix /home/paul/Ground-Station/flight_visualizer/install/flight_visualizer --record /home/paul/Ground-Station/flight_visualizer/build/flight_visualizer/install.log --single-version-externally-managed

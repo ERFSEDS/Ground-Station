@@ -17,14 +17,14 @@ class CreateGraphs(Node):
             Float64,
             'ElapsedTime',
             self.values_time_callback,
-            100)
-        self.subscription_time # prevent unused variable warning
+            10)
+        self.subscription_time  # prevent unused variable warning
         self.subscription_alt = self.create_subscription(
             Float64,
             'TrueAltitude',
             self.values_alt_callback,
-            100)
-        self.subscription_alt # prevent unused variable warning
+            10)
+        self.subscription_alt  # prevent unused variable warning
         self.i = 0
         self.time = []
         self.index = []
@@ -43,28 +43,32 @@ class CreateGraphs(Node):
         self.index.append(self.i)
         self.i += 1
         self.get_logger().info('Alt heard: "%s"' % msg)
+        # This needs to be global because the variable has to persists
+        global ani
+        ani = animation.FuncAnimation(plt.gcf(), self.animate, interval=1000)
         # TODO make this branchless because that's *fancy*
         # Sometimes the time and altitude don't get reported
         # concurrently. This just helps make sure that the size of each list is the same so they can be plotted
-        if len(self.time) > len(self.alt):
-            x_vals = self.time[0: len(self.alt)]
+        time_len = len(self.time)
+        alt_len = len(self.alt)
+        x_vals = ((time_len > alt_len) * (self.time[0: alt_len]) + (alt_len >= time_len) * self.time)
+        y_vals = ((time_len >= alt_len) * self.alt + (alt_len > time_len) * (self.alt[0: time_len]))
+        """
+        if time_len > alt_len:
+            x_vals = self.time[0: alt_len]
             y_vals = self.alt
-        elif len(self.alt) > len(self.time):
+        elif alt_len > time_len:
             x_vals = self.time
-            y_vals = self.alt[0: len(self.time)]
+            y_vals = self.alt[0: time_len]
         else:
             x_vals = self.time
             y_vals = self.alt
+        """
         self.ys = y_vals
         self.xs = x_vals
-        # plt.show()
-        # This needs to be global because the variable has to persists
-        global ani
-        ani = animation.FuncAnimation(plt.gcf(), self.animate, interval=200)
-        # plt.tight_layout()
-        # plt.ion()
-        # plt.show()
-        plt.pause(0.1)
+        ani
+        plt.pause(1)  # Value here is in seconds. A higher value will result in a higher resolution graph, but will be
+        # slower to plot
         # TODO This entire thing is slow and needs to be optimized
 
     def animate(self, i):
