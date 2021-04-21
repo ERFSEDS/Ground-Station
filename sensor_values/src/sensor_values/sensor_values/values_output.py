@@ -1,7 +1,6 @@
 # This is just here to test the functionality of process_values node
 # User will be prompted for a path to a CSV file containing the test data
 
-from itertools import islice
 import csv
 import rclpy
 from rclpy.node import Node
